@@ -1,7 +1,10 @@
-const check = document.getElementById("button")
-localStorage.setItem("checkDark = false")
+window.localStorage;
 
-function myFunction() {
+const check = document.getElementById("button")
+localStorage.setItem("checkDark", false)
+
+function myFunction() 
+{
     var element = document.body;
     element.classList.toggle("darkMode");
 }
