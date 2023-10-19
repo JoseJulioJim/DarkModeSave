@@ -7,6 +7,12 @@ function myFunction()
 {
     var element = document.body;
     element.classList.toggle("darkMode");
+    if("darkMode", true)
+    {
+        localStorage.setItem.toggle("checkDark");
+    }
 }
+
+addEventListener("DOMContentLoaded", (myFunction))
 
 localStorage.getItem("checkDark")
